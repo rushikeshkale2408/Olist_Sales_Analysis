@@ -1,0 +1,38 @@
+OLIST SALES ANALYSIS DASHBOARD
+Project Introduction
+You can start like this:
+This dashboard is an E-commerce Sales Analysis Dashboard built using Excel Power Pivot and Pivot Tables.
+The goal of this dashboard is to analyze sales performance, customer behavior, payment methods, and delivery performance.
+2️⃣ Data Source
+I used the Olist E-commerce dataset which contains multiple tables such as customers, orders, order items, payments, products, and reviews.
+I first cleaned the data using Power Query and then created relationships between tables using the Data Model in Power Pivot.
+3️⃣ Data Modeling
+Since the dataset was in multiple tables, I created relationships using order_id and customer_id as keys.
+This helped me build a data model where different tables are connected, allowing cross-table analysis.
+4️⃣ KPIs Explained
+Now explain the KPI cards.
+Orders KPI
+The first KPI shows the total number of orders with review score 5 and payment type credit card.
+Average Delivery Days
+This KPI shows the average number of days taken to deliver an order.
+Average Payment Value
+This shows the average payment value per order.
+5️⃣ Charts Explanation
+Weekday vs Weekend Payment
+This chart compares total payments made during weekdays and weekends to understand customer purchasing patterns.
+Top 5 Product Categories by Revenue
+This chart shows the top 5 product categories generating the highest revenue, helping identify best-selling categories.
+Delivery Days vs Review Score
+This line chart analyzes how delivery time affects customer reviews.
+We can see that faster delivery usually leads to higher review scores.
+6️⃣ Slicers
+The dashboard includes interactive slicers such as customer city, payment type, and review score, which allow users to filter the entire dashboard dynamically.
+7️⃣ Business Insight
+End with insight (interviewers like this).
+From this dashboard, businesses can understand:
+Which product categories generate the most revenue
+Customer purchasing behavior on weekdays vs weekends
+The relationship between delivery time and customer satisfaction
+Preferred payment methods
+8️⃣ Conclusion
+This dashboard helps stakeholders quickly monitor sales performance and make data-driven decisions.
